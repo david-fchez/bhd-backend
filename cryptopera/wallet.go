@@ -1,6 +1,7 @@
 package cryptopera
 
 import (
+	"bhd/bhdmodels"
 	"bhd/cryptopera/bip44"
 	"encoding/hex"
 	"github.com/gcash/bchd/chaincfg"
@@ -8,7 +9,6 @@ import (
 	hd "github.com/gcash/bchutil/hdkeychain"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
-	"bunnyhedger.com/shared/bhdmodels"
 )
 
 type KeyGenInfo struct {

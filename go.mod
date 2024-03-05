@@ -19,7 +19,6 @@ require (
 require (
 	github.com/dchest/siphash v1.2.3 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
-	bunnyhedger.com/shared v0.0.0
 )
 
-replace bunnyhedger.com/shared v0.0.0 => ./../../shared/src
+

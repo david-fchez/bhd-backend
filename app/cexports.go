@@ -10,12 +10,12 @@ package app
 
 import (
 	"C"
+	"bhd/bhdmodels"
 	"bhd/cryptopera"
 	_ "embed"
 	"encoding/hex"
 	"encoding/json"
 	"github.com/skip2/go-qrcode"
-	"bunnyhedger.com/shared/bhdmodels"
 	"strconv"
 )
 

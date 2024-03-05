@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"bunnyhedger.com/shared/dailyrotate"
-	"bunnyhedger.com/shared/log"
+	"bhd/dailyrotate"
+	"bhd/log"
 )
 
 type BackendParams struct {
